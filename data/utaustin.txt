@@ -1,0 +1,6 @@
+The University of Texas at Austin
+
+BS in Mechanical Engineering (ME) from the Cockrell School of Engineering. Consisted of 126 credit hours of courses including Mechanics of Solids, Dynamics, Thermodynamics, Fluid Mechanics, Heat Transfer, Materials Science, Mechatronics, and Dynamic Systems & Controls. Degree includes 12 credit hours of elective courses, including courses in Renewable Energy Technology, Nanotechnology for Sustainable Engineering, and Data Science. Also covered Statistics and Finance as they relate to engineering projects. Completed two group projects during senior year: Designing and building a low-budget 3D printer for food, and designing devices with variable stiffness for acoustic modulation. 
+
+
+Certificate in Computational Science & Engineering (CSE) from the Oden Institute. Consisted of 15 hours of coursework and an independent research project. Covered programming including medical methods, data structures, and algorithms, and hardware of computers as it relates to intensive computing. Completed a project to design and simulate a device with electrostatic actuators to modulate the effective stiffness of the device. 
