@@ -1,4 +1,4 @@
-Design of MEMS Actuator device
+MEMS Actuator Device Design
 
 
 Django Website
@@ -6,12 +6,6 @@ Django Website
 
 3D Printer Design
 
-
-Data Science Projects
-
-
-Braking System Design
- 
 
 Solar Research
 
@@ -22,7 +16,14 @@ Drill Fluid Project
 Solar Array MATLAB Model
 
 
-CSR Research 
+CSR Research
+
+
+Data Science Projects
+
+
+Braking System Design
+ 
 
 
 
