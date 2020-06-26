@@ -10,19 +10,19 @@ Django Website
 Solar Research
 
 
-Drill Fluid Project
+Drilling Fluid
 
 
-Solar Array MATLAB Model
+Solar Array Model
 
 
 CSR Research
 
 
-Data Science Projects
+*Data Science Projects
 
 
-Braking System Design
+*Braking System Design
  
 
 

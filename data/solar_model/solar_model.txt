@@ -1,0 +1,14 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="../../txtstyles.css" rel="stylesheet">
+
+<p>I took an elective course in Renewable Energy Technology. A large portion of the course was devoted to a complete understanding of factors which affect photovoltaic power conversion. We were tasked with building a MATLAB model to simulate a solar panel array at an events center in Austin. This building had installed an array of solar panels with live data reporting, so we would be able to compare our model to actual performance.</p>
+
+<p>In the MATLAB model, the total incident solar irradiance was found first. Using the date, time, and location, we used an empirically derived formula to find the clear day solar irradiance. Using data from the actual panel performance over the previous year, we created a simple cloud correction model by relating the daily maximum power to the maximum for each month. From the adjusted total irradiance, we found the incident radiation on the panels due to the tilt.</p> 
+
+<p>We created a temperature model for each month from data of average weather in Austin. The operating temperature of the solar cell could be calculated by adding the effect of incident radiation according to an empirical correlation to the ambient temperature from the temperature model. The power output from the solar panels could then be calculated using the adjusted panel efficiency as a result of the operating temperature.</p> 
+
+<p>The model as built was a complete simulation of the solar array installed at the events center. When comparing the simulation data and the actual data, the simulation data was noticeably always over-predicting the performance of the panels. This was likely due to inaccuracies in the correlation to calculate the amount of irradiance and in the dampening effect of clouds.</p>
+
+<p>We further expanded the model to explore the potential of adding battery storage. We created a power consumption model from the average electricity use at the building. The model would then divert any excess power to battery storage. This was run for an expanded set of solar panels and several battery capacities.</p> 
+
+<p>The economic benefit of selling excess power back to the grid was also investigated. If batteries were present, the power would be sold when there was excess power and the batteries were full. We found that cost of batteries could not be recovered by selling power, and the lowest cost option was to not have batteries at all and sell all excess power back.</p>

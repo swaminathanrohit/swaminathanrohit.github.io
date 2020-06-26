@@ -1,0 +1,12 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="../../txtstyles.css" rel="stylesheet">
+
+<p>As costs continue to decrease, solar generation capacity is rapidly increasing. As a consulting company in the oil and gas industry, Blade Energy Partners wanted to identify areas of the solar energy industry where they could expand the business in the future.</p>
+
+<p>I consulted studies and reports to understand the total environmental impact of solar energy. Energy Density is a metric which quantified the energy impact of each stage of solar energy production. While solar energy systems are designed to last 25-30 years, it only took ten years to obtain the energy back. This compares favorably with other generation methods. The Levelized Cost of Energy is a metric which determined the method of energy generation best suited for particular regions. In terms of the avoided cost of not using the regional traditional energy source, solar was determined to be the most economical source of energy.</p> 
+
+<p>The report contained a discussion of the efficiency of photovoltaic (PV), parabolic trough concentrated solar, and tower concentrated solar. This was followed by summaries of areas of research for efficiency improvements. Areas of research in photovoltaics includes perovskite cells, concentrated PV, floating PV, and thin-film solar cells. Concentrated solar power research was mainly concerned with achieving higher temperatures for increased efficiency.</p> 
+
+<p>I reviewed many methods of energy storage, which is key to further usability of solar power. Mechanical storage can provide high efficiency conversion, but is dependent on having suitable natural conditions. Different battery chemistries offered different characteristic longevity, operating temperature, and environmental considerations. Thermal storage can be in the form of sensible heat in water or salts, latent heat in phase change materials, or thermo-chemical storage in metal hydrides. These were most promising for concentrated solar power.</p> 
+
+<p>I identified the following as issues in the solar energy industry: Thermal storage and HT fluids used in concentrated solar plants have the risk of corroding the storage containers and pipes. High winds and particles carried by the wind cause balance problems and abrasion for PV panels and concentrated solar reflectors. The combined effects of various damages could lead to hot spots in PV panels, where current leaks as heat and can eventually cause failure.</p> 

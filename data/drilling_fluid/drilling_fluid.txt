@@ -1,0 +1,10 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="../../txtstyles.css" rel="stylesheet">
+
+<p>Finding the correct drilling fluid is critical. The drilling fluid is circulated through the hole to clean out the excavated bits. It also needs to provide sufficient pressure throughout the well to prevent natural fluids from leaking in, while staying below a pressure which would fracture the surrounding rock. I was given the task of creating an Excel program to find the optimal drilling fluid for a given well between Water, a CaCl2 brine, and a water-based drilling mud. The required flow rates of each fluid to properly clean the hole and a range for the pressure at the bottom of the well were supplied.</p>
+
+<p>From the well schematic, I identified eight sections of the well on the path of the drilling fluid which had unique geometry, defined by the changing diameters of the drill pipe and the annular region. For each region, I needed to find the pressure drop through the well.</p>
+
+<p>I created a table of density and viscosity of each fluid at the temperatures experienced in the well as a result of the natural temperature gradient. Some properties were extrapolated based on the fact that both the brine and the mud were water-based.</p> 
+
+<p>The pressure drop through each section was found using the Darcy-Weisbach equation. The required friction factor was found through an approximation of the iterative Colebrook equation. The approximation was chosen because of its demonstrated accuracy at the conditions of the well. The total pressure loss in the pipe was found by summing the pressure loss in each section. Since the fluid needed to go down the well and return to the surface, the pump capacity required to circulate the fluid was equal to the pressure loss. After accounting for uncertainties, the brine was the only fluid which satisfied the bottom hole pressure constraint.</p>
