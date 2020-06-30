@@ -1,5 +1,18 @@
+:root {
+  --background-color: #FBFCFC;
+  --text-color: #1B2631;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #212F3D;
+    --text-color: #ECF0F1;
+  }
+}
+
 html, body {
   font-family: 'Raleway', sans-serif;
   font-size:12px;
-  color: black;
+  background-color: var(--background-color);
+  color: var(--text-color);;
 }
