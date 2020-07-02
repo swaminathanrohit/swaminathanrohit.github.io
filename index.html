@@ -12,13 +12,17 @@
 
     <div>
       <title>Rohit Swaminathan</title>
-      <h2 style="padding:20px">Rohit Swaminathan</h2>
+      <h2 style="padding:20px">Rohit Swaminathan <span style="color:#95A5A6">Project Portfolio</span></h2>
       <hr noshade="noshade">
     </div>
 
     <div class="container-fluid">
 
-    <div class="row">
+    <div>
+    <a class="btn btn-primary btn-circle fab" href="#" role="button" id="next_button" onclick="next()"><img src="./data/icon/arrow.png" width="50" /></a>
+    </div>
+
+    <div class="row" id="mems_actuator">
       <div class="col-sm">
         <h5>Design of MEMS Actuator device</h5>
         <iframe src="./data/mems_actuator/mems_actuator.html" frameborder="0" width="100%" height="400"></iframe>
@@ -62,7 +66,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="project_database_website">
       <div class="col-sm">
         <h5>Longhorn.done(): Creation of a project database website</h5>
         <iframe src="./data/project_database_website/project_database_website.html" frameborder="0" width="100%" height="400"></iframe>
@@ -106,7 +110,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="3d_printer_design">
       <div class="col-sm">
         <h5>Designing and building a 3D Printer for food</h5>
         <iframe src="./data/3d_printer_design/3d_printer_design.html" frameborder="0" width="100%" height="400"></iframe>
@@ -150,7 +154,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="solar_research">
       <div class="col-sm">
         <h5>Report on the state of solar energy & potential opportunities</h5>
         <iframe src="./data/solar_research/solar_research.html" frameborder="0" width="100%" height="400"></iframe>
@@ -194,7 +198,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="drilling_fluid">
       <div class="col-sm">
         <h5>Selecting the optimal drilling fluid</h5>
         <iframe src="./data/drilling_fluid/drilling_fluid.html" frameborder="0" width="100%" height="400"></iframe>
@@ -232,7 +236,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="solar_model">
       <div class="col-sm">
         <h5>Devloping a solar array simulation model</h5>
         <iframe src="./data/solar_model/solar_model.html" frameborder="0" width="100%" height="400"></iframe>
@@ -270,7 +274,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="csr_research">
       <div class="col-sm">
         <h5>Charecterizing the heat transfer through GRACE-FO satellites</h5>
         <iframe src="./data/csr_research/csr_research.html" frameborder="0" width="100%" height="400"></iframe>
@@ -317,10 +321,18 @@
 
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script>
+    var projects = document.getElementsByClassName("row"), len=projects.length, i=-1;
+    function next() {
+      if (i < len-1) {
+        i++;}
+      else {
+        i=0}
+      document.getElementById("next_button").href = "#".concat(projects[i].id);
+    }
+    </script>
   </body>
 </html>
