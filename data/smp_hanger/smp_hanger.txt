@@ -1,0 +1,14 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="../../txtstyles.css" rel="stylesheet">
+
+<p>During the time I worked at SMP Automotive, the plant was rapidly expanding from 16 injection molding presses to 30, to reach full capacity from its opening just 6 months earlier. The interim empty space in the facility was used for storage, but more organized and permanent method was needed for when the facility was fully operational.</p>
+
+<p>Some of the larger injection molded pieces needed to be reoriented from the position from which they were picked up from the mold before they were placed on the conveyor belt to be carried out of the press. This reorientation was done by placing the part in the hold of another gripper which was held stationary and then reorienting the main robot arm, which finally picked up the piece from the stationary gripper and placed it in the correct orientation for conveyance.</p> 
+
+<p>The stationary grippers were known as transfer grippers. These transfer grippers were held in the interim storage, unlike the main grippers which had hangers inside the press for storage. I was tasked with designing a hanger for the transfer grippers to be placed on a pole adjacent to the press. The hanger would need to have an electronic sensor to monitor the presence of the grippers.</p>
+
+<p>Each transfer gripper has a standard wedged plate on its back, which could be used to create a universally appropriate backplate design. Upon close examination, some of the grippers had components which extended out immediately in front of the wedged plate. Therefore, the hanger would need to be designed to closely shell the plate, and the support would need to come from the bottom.</p>
+
+<p>To make the hangers easier to manufacture, I separated the design so that the bottom support was a separate piece that would be screwed into the backplate shell. This was for ease of manufacture and repair, and the utility was not compromised.</p>
+
+<p>I researched various proximity sensors, looking for a balance of simplicity and cost. The sensor I chose could be configured in the small space required, and could function with only reflective tape on the gripper plate. The hanger design shown could be repeated and attached to a base plate sized to accommodate all the transfer grippers at a press.</p>

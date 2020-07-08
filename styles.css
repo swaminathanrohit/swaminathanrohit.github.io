@@ -44,9 +44,10 @@ p {
   color: var(--text-color);
 }
 
-img {
-  max-height: 300px;
+.slide {
+  height: 300px;
   width: 100%;
+  vertical-align: middle;
   object-fit: contain;
   margin-bottom: 20px;
 }
@@ -84,4 +85,8 @@ img {
   right: 50px;
   bottom: 50px;
   z-index: 100;
+}
+
+.row {
+  margin-bottom: 50px;
 }
